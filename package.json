@@ -1,0 +1,24 @@
+{
+  "name": "n8n-nodes-gotenberg",
+  "version": "1.0.0",
+  "description": "Gotenberg node for n8n to convert documents to PDF",
+  "keywords": ["n8n-community", "gotenberg", "pdf", "n8n"],
+  "license": "MIT",
+  "homepage": "https://github.com/Maicon-Bartoski/n8n-nodes-gotenberg",
+  "author": "Maicon Bartoski",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maicon-Bartoski/n8n-nodes-gotenberg.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build required'"
+  },
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": ["nodes/Gotenberg.node.js"],
+    "credentials": ["nodes/Gotenberg.node.js"]
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
