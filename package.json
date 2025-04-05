@@ -2,7 +2,12 @@
   "name": "n8n-nodes-gotenberg",
   "version": "1.0.0",
   "description": "n8n-nodes-gotenberg: A custom n8n node to integrate with the Gotenberg API, enabling seamless conversion of URLs, HTML, Markdown, and Office documents (Word, Excel, etc.) into PDF. Supports custom API URLs and optional authentication for hosted instances.",
-  "keywords": ["n8n-community", "gotenberg", "pdf", "n8n"],
+  "keywords": [
+    "n8n-community",
+    "gotenberg",
+    "pdf",
+    "n8n"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/Maicon-Bartoski/n8n-nodes-gotenberg",
   "author": "Maicon Bartoski",
@@ -16,9 +21,16 @@
   },
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "nodes": ["nodes/Gotenberg.node.js"],
-    "credentials": ["nodes/Gotenberg.node.js"]
+    "nodes": [
+      "nodes/Gotenberg.node.js"
+    ],
+    "credentials": [
+      "nodes/Gotenberg.node.js"
+    ]
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "n8n-nodes-gotenberg": "^1.0.0",
+    "node-fetch": "^2.6.7"
+  }
 }
