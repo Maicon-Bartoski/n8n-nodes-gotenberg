@@ -38,4 +38,4 @@ docker run --rm -p 3000:3000 gotenberg/gotenberg:7
 5. Configure additional options if needed
 
 ## License
-[MIT](LICENSE)
+[MIT](LICENSE.md)
